@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.logo img {
+    width: auto;
+    height: 125px;
+    margin-bottom: 10px;
+}
+.container a {
+    font-weight: 700;
+    justify-content: center;
+    margin-left: 75px;
+    color: #6F4F28;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.indice {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.indice img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.indice-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.indice-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.indice-text p {
+    font-size: 1.2em;
+}
+
+.menu {
+    padding: 40px;
+    background-color: #f7f7f7;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-align: center;
+    max-width: 290px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 40px;
+    background-color: #3A3B1F;
+}
+
+.about p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.about-images img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.events {
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.events button {
+    padding: 10px 20px;
+    background-color: #6F4F28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    background-color: #E0E0E0;
+    color: black;
+    text-align: center;
+}
+
+#footer a {
+    display: center;
+    text-decoration: none;
+    color: #3A3B1F;
+    margin: 12px;
+    font-weight: bold;
+}
